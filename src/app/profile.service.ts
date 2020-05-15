@@ -8,8 +8,8 @@ import 'rxjs-compat';
 })
 export class ProfileService {
   private username: string;
-  apiKey: 'environment.apiKey';
-  apiUrl: 'environment.apiUrl';
+  private apiKey: string = 'environment.apiKey';
+  private apiUrl: string = 'environment.apiUrl';
 
   constructor(private http: HttpClient) {
     console.log('service is running');
@@ -36,5 +36,9 @@ export class ProfileService {
           environment.apiKey
       )
       .map((res) => res);
+  }
+
+  updateProfile(username: string) {
+    this.username = username;
   }
 }
