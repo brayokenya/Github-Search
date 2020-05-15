@@ -26,4 +26,15 @@ export class ProfileService {
       )
       .map((res) => res);
   }
+  getrepoInfo() {
+    return this.http
+      .get(
+        environment.apiUrl +
+          this.username +
+          '/repos' +
+          '?access_token=' +
+          environment.apiKey
+      )
+      .map((res) => res);
+  }
 }

@@ -18,6 +18,7 @@ export class ProfileComponent implements OnInit {
     private httpclient: HttpClient
   ) {
     this.profileService.getprofileInfo().subscribe((res) => (this.user = res));
+    this.profileService.getrepoInfo().subscribe((data) => (this.repos = data));
   }
 
   ngOnInit(): void {}
