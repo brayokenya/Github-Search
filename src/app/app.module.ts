@@ -11,6 +11,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileService } from './profile.service';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     SearchBarComponent,
     ProfileComponent,
     LandingPageComponent,
+    NotfoundComponent,
   ],
   imports: [
     BrowserModule,
