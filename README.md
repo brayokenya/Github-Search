@@ -10,9 +10,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. As seen below, the site allows a user to make a custom quote, like, dislike and delete a quote.
-![Screenshot 2020-05-11 at 00 27 15](https://user-images.githubusercontent.com/25317059/81510930-5609b480-931e-11ea-8266-b7829fe83086.png)
-![Screenshot 2020-05-11 at 00 27 35](https://user-images.githubusercontent.com/25317059/81510932-586c0e80-931e-11ea-88a5-8e524132e25e.png)
-![Screenshot 2020-05-11 at 00 27 40](https://user-images.githubusercontent.com/25317059/81510933-599d3b80-931e-11ea-9daa-cdd70c7e26e6.png)
+![Screenshot 2020-05-17 at 16 16 16](https://user-images.githubusercontent.com/25317059/82147929-d322b580-9859-11ea-9c81-079468710924.png)
+![Screenshot 2020-05-17 at 16 16 42](https://user-images.githubusercontent.com/25317059/82147931-d453e280-9859-11ea-8fc5-9a00cb20eb0d.png)
+)
 
 ## Further help
 
