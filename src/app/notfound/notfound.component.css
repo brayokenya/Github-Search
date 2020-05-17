@@ -15,12 +15,11 @@ body {
     color: #343434
 }
 
-.container h1 {
+.container .h1 {
     font-size: 160px;
     margin: 0;
     font-weight: 900;
     letter-spacing: 20px;
-    background: url('./assets/images/github.png') center no-repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
