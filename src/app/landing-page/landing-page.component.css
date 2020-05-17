@@ -1,0 +1,39 @@
+.body,
+html {
+    height: 100vh;
+    text-align: center;
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+}
+
+.col-sm-5 {
+    padding: 20%;
+    background-color: #212529;
+    margin: 0;
+    color: rgb(247, 239, 239);
+}
+
+.container-fluid {
+    padding: 0;
+    overflow: hidden;
+}
+
+.content {
+    padding: 6%;
+}
+
+.header {
+    padding: 20%;
+    background-color: #212529;
+    margin: 0;
+    color: rgb(247, 239, 239);
+}
+
+@media(max-width:960px) {
+    .container {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
