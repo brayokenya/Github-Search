@@ -1,3 +1,22 @@
 .search-form {
-    padding-top: 50px;
+    padding-top: 100px;
+    height: 50vh;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+    .container {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+.container-fluid {
+    padding: 20%;
+    background-color: #212529;
+    margin: 0;
+    color: rgb(247, 239, 239);
 }
