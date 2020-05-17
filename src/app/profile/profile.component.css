@@ -1,10 +1,12 @@
 .search-form {
-    padding-top: 100px;
+    padding-top: 1px;
     height: 50vh;
 }
 
 .img-circle {
     border-radius: 50%;
+    width: 230px;
+    height: 230px;
 }
 
 @media (max-width: 960px) {
@@ -15,8 +17,25 @@
 }
 
 .container-fluid {
-    padding: 20%;
     background-color: #212529;
     margin: 0;
     color: rgb(247, 239, 239);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.col-sm-5 {
+    background-color: #212529;
+    margin: 0;
+    color: rgb(247, 239, 239);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.list-group-item {
+    background-color: #212529;
+    margin: 0;
+    color: rgb(247, 239, 239);
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
