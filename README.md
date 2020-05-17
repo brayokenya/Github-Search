@@ -17,6 +17,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 For further help, contact me via kiirubrian21@gmail.com or checkout angular 9 documentation
 
-## [License](https://github.com/brayokenya/brainy-quotes/blob/master/LICENSE)
+## [License](https://github.com/brayokenya/Github-Search/blob/master/LICENSE)
 
 MIT (c) 2020 [Kimani Brian Kiiru](https://github.com/brayokenya)
