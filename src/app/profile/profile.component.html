@@ -11,7 +11,7 @@
                 {{ user.name }} <small>{{ user.login }}</small>
                 <span *ngIf="user.company">, Works at {{ user.company }}</span> {{ user.location }}
             </div>
-            <div class="panel-body">
+            <div class="panel-body text-right">
                 <div class="row">
                     <div class="col-sm-3">
                         <img src="{{ user.avatar_url }} " class="img-circle img-responsive" alt="" />
@@ -33,10 +33,10 @@
                     <div class="col-sm-4">
                         <div>
                             <p>
-                                <span class="badge badge primary">{{ user.followers }} Followers</span>&nbsp;&nbsp;
-                                <span class="badge badge primary">Following {{ user.following }}</span>&nbsp;&nbsp;
-                                <span class="badge badge primary">{{ user.public_gists }} Public gists</span>&nbsp;&nbsp;
-                                <span class="badge badge primary">{{ user.public_repos }} Public Repos</span>&nbsp;&nbsp;
+                                <span class="badge badge-primary">{{ user.followers }} Followers</span>&nbsp;&nbsp;
+                                <span class="badge badge-warning">Following {{ user.following }}</span>&nbsp;&nbsp;
+                                <span class="badge badge-danger">{{ user.public_gists }} Public gists</span>&nbsp;&nbsp;
+                                <span class="badge badge-success">{{ user.public_repos }} Public Repos</span>&nbsp;&nbsp;
                             </p>
                             <p>
                                 <a href="{{ user.html_url }} " class="btn btn-success btn-sm" target="_blank ">View profile on
@@ -44,7 +44,8 @@
                             </p>
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Repos</h3>
+                                    <h3 class="panel-title">Repositories
+                                    </h3>
                                 </div>
                                 <div class="panel-body" *ngFor="let repo of repos">
                                     <p class="clearfix">
