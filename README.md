@@ -18,6 +18,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Technologies used
 * `Angular 9`
 * ` Node`
+* ` TypeScript`
+* ` HTML`
+* ` CSS`
+* ` JavaScript`
 
 ## Further help
 
