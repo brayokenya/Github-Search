@@ -1,4 +1,4 @@
-
+[![codebeat badge](https://codebeat.co/badges/7f723621-0b3f-4765-98df-ab86cfd1799c)](https://codebeat.co/projects/github-com-brayokenya-github-search-master)
 #### A web App for Searching Github USernames, 17th May 2020
 
 #### By ** Kimani Brian Kiiru**
